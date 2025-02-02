@@ -2,6 +2,8 @@
 ## i) Screenshot of program output with execution time for all cases
 
 ![](Screenshots/output_p1.png)
+![](Screenshots/output_p2.png)
+![](Screenshots/output_p3.png)
 
 ## ii) Comparative table of execution times
 
@@ -12,7 +14,8 @@
 | x86-64 | 0.759703 ms | 0.646217 ms | 14.94% | 
 | SIMD XMM | 0.476223 ms | 0.517763 ms | -8.72% |
 | SIMD YMM | 0.475753 ms | 0.479500 ms | -0.79% |
-
+![Test 1](Screenshots/comparative_table/s1t1.PNG)
+![Test 2](Screenshots/comparative_table/s1t2.PNG)
 * Majority of % are a decrease in time. This could be due to human error or dependent on the user's computer specs. Furtuher testing may be needed for this. Assembly language showing its speed over C language.
 
 ### Avg time for size n = 67108864 (in ms)
@@ -22,7 +25,8 @@
 | x86-64 | 52.568163 ms | 49.703820 mss | 5.45% |
 | SIMD XMM | 39.738370 ms | 38.419083 ms | 3.32% |
 | SIMD YMM | 39.581590 ms | 38.706023 ms | 2.21% |
-
+![Test 1](Screenshots/comparative_table/s2t1.PNG)
+![Test 2](Screenshots/comparative_table/s2t2.PNG)
 * An increase of about 2-5% can be seen being more efficient and faster compared to the C code version. Baded on time it is visible that C language is the lowest and XMM regiter being the lastest.
 
 ### Avg time for size n = 268435456 (in ms)
@@ -32,18 +36,15 @@
 | x86-64 | 214.798213 ms | 199.011323 ms | 7.35% |
 | SIMD XMM | 183.867480 ms | 151.913040 ms |17.38%|
 | SIMD YMM | 165.358517 ms | 151.990617 ms | 8.08%|
-
+![Test 1](Screenshots/comparative_table/s3t1.PNG)
+![Test 2](Screenshots/comparative_table/s3t2.PNG)
 *  This result has the greatest increase % from testing at 17%%. An observation that can be made is that at trial 1 the ymm beats out the xmm regisrer however, at trial 2 the ymm register is marginally worse than the previous.
 
 ## iii-vi) Screenshot of program output wih correctness check
 
-![C](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![x86-64](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![SIMD XMM](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![SIMD YMM](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Check for vector size of 1048576](Screenshots/correctness check/outcheck1.PNG)
+![Check for vector size of 67108864](Screenshots/correctness check/outcheck2.PNG)
+![Check for vector size of 268435456](Screenshots/correctness check/outcheck3.PNG)
 
 ## vii) Discussion 
 
