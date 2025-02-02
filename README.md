@@ -1,7 +1,7 @@
 
 ## i) Screenshot of program output with execution time for all cases
 
-![](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![](Screenshots/output_p1.png)
 
 ## ii) Comparative table of execution times
 
